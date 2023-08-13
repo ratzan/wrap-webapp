@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styled from 'styled-components';
 
 const HeaderWrapper = styled.header`
@@ -9,5 +9,7 @@ const HeaderWrapper = styled.header`
 `;
 
 export const Header: React.FC = () => {
-    return <HeaderWrapper>Wrap Event</HeaderWrapper>;
+  return <HeaderWrapper>Wrap Event</HeaderWrapper>;
 };
+
+export default Header;

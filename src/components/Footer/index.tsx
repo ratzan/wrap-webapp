@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
@@ -9,5 +9,9 @@ const FooterWrapper = styled.footer`
 `;
 
 export const Footer: React.FC = () => {
-    return <FooterWrapper>© 2023 Wrap Event. All rights reserved.</FooterWrapper>;
+  return (
+    <FooterWrapper>© 2023 Wrap Event. All rights reserved.</FooterWrapper>
+  );
 };
+
+export default Footer;
